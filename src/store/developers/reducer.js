@@ -19,15 +19,15 @@ const initialState = {
       favorites: [1, 2, 3],
     },
   ],
-  selectedResourceId: null,
+  selectedDeveloperId: null,
 };
 
 export default function developersSliceReducer(state = initialState, action) {
   const newState = { ...state };
 
   switch (action.type) {
-    case "SET_SELECTED_RESOURCE_ID": {
-      newState.selectedResourceId = action.payload;
+    case "SET_SELECTED_DEVELOPER_ID": {
+      newState.selectedDeveloperId = action.payload;
       break;
     }
     default: {
