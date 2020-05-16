@@ -1,0 +1,32 @@
+.oneRes {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: rgb(20, 207, 20);
+}
+
+.anchor:hover {
+  color: rgba(232, 253, 125, 0.822);
+}
+
+.name {
+  color: rgb(248, 102, 158);
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
+import ResourcesList from "./ResourcesList.js";
 
 const selectNumberOfResources = (initialState) => {
   return initialState.resources.resources.length;
@@ -98,6 +99,8 @@ function App() {
           <li key={res.id}>{res.name}</li>
         ))}
       </ul>
+      <h3>All resources:</h3>
+      <ResourcesList />
     </div>
   );
 }
